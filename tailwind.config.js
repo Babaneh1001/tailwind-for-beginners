@@ -1,6 +1,6 @@
  /** @type {import('tailwindcss').Config} */
 export default {
-   content: ['./*.html'],
+   content: ['./**/*.{html,js}'], // ← INCLUDE all HTML & JS files in subfolders
    theme: {
     screens: {
       sm: '480px',
